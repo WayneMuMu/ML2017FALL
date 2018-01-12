@@ -15,7 +15,7 @@ for jpg in your_list:
 img = np.array(img)
 
 target = sys.argv[2]
-idx = int(target[:target.find('.')])
+idx = your_list.index(target)
 
 print(img.shape)
 print(idx)
